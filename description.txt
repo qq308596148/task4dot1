@@ -1,0 +1,7 @@
+The database looks like this : 
+
+ID	NAME	AGE
+1	qwe	18
+2	234	18
+
+all the code and statement which process the database are shown on log.txt or DB.sql file

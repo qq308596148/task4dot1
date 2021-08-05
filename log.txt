@@ -1,0 +1,16 @@
+# Creating database and table(s)
+create database student;
+create table student(
+    id bigint primary key auto_increment,
+    name varchar(50) ,
+    age int
+);
+#Inserting records, Deleting records
+insert into student(name,age) values('qwe',18);
+insert into student(name,age) values('234',18);
+delete from student where name ='qwe';
+#Updating records and table schema
+update student set age=19 where name ='234';
+#Dropping table(s) and database
+drop table student;
+drop database student;
